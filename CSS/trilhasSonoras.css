@@ -1,0 +1,44 @@
+:root{
+    --black : #000000;
+    --white : #ffffff;
+    --primary : rgb(62, 255, 94);
+    --light-green : #77d887;
+    --light-gray : #555151;
+    --gray : #afaeae;
+    --gray-background : #f3f3f3;
+    --brackground : #ddd7d7;
+    --red : #da4a4a;
+    --light-red : #f0a3a3;
+}
+
+
+.Trilhas-Sonoras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.trilha-anjos-da-lei, .trilha-a-origem, .trilha-bad-boys, .trilha-batman, .trilha-esposa-de-mentirinha, .trilha-gente-grande, .trilha-interestellar, .trilha-kingsman, .trilha-tenet, .trilha-velozes-e-furiosos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-basis: 33%;
+    
+}
+
+h2{
+    color: var(--white);
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h1{
+    color: var(--primary);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}

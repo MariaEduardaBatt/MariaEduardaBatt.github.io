@@ -1,0 +1,142 @@
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="Img/logo.png"/>
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-header">
+            <h2>Webflix</h2>
+        </nav>
+    </header>
+    <div class="cadastro-container">
+        <form class="cadastro-form" action="/index.html">
+            <fieldset>
+            <h1>Cadastro</h1>
+            <label for="name">Nome:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Digite seu nome"
+                required
+                autocomplete="off"
+            />
+            <label for="endereco">Endereço:</label>
+            <input
+                type="text"
+                id="endereco"
+                name="endereco"
+                placeholder="Digite seu endereço"
+                required
+                autocomplete="off"
+            />
+            <label for="email">E-mail:</label>
+            <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Digite seu E-mail"
+                required
+                autocomplete="off"
+            />
+            <label for="cidade">Cidade:</label>
+            <input
+                type="text"
+                id="cidade"
+                name="cidade"
+                placeholder="Digite sua cidade"
+                required
+                autocomplete="off"
+            />
+            <label for="estado">Estado:</label>
+            <select name="pais">
+                <option value="null" selected>-----</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <label for="sexo">Sexo:</label>
+            <radio>
+                <div><label>Masculino</label><input type="radio" name="sexo" value="masculino"></div>   
+                <div><label>Feminino</label><input type="radio" name="sexo" value="feminino"></div>
+                <div><label>Outro</label><input type="radio" name="sexo" value="outro"></div>
+            </radio>
+        </fieldset>
+        <fieldset>
+            <label for="filme-favorito">Tipos de filmes favorito:</label>
+            <div class="filmes-fav">
+                <div><label>Ação</label><input type="checkbox" name="filme-favorito" value="acao"></div>
+                <div><label>Aventura</label><input type="checkbox" name="filme-favorito" value="aventura"></div>
+                <div><label>Comédia</label><input type="checkbox" name="filme-favorito" value="comedia"></div>
+                <div><label>Drama</label><input type="checkbox" name="filme-favorito" value="drama"></div>
+                <div><label>Romance</label><input type="checkbox" name="filme-favorito" value="romance"></div>
+                <div><label>Suspense</label><input type="checkbox" name="filme-favorito" value="suspense"></div>
+                <div><label>Terror</label><input type="checkbox" name="filme-favorito" value="terror"></div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="usuario">Usuário:</label>
+            <input
+                type="text"
+                id="usuario"
+                name="usuario"
+                placeholder="Digite seu usuário"
+                required
+                autocomplete="off"
+            />
+            <label for="senha">Senha:</label>
+            <input
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite sua senha"
+                required
+                autocomplete="off"
+            />
+            <button type="submit" id="cadastrar" class="login">Cadastrar</button>
+            <button type="reset" class="limpar">Limpar formulário</button>
+        </fieldset>
+        <a href="/index.html">Voltar</a>
+        </form>
+    </div>
+    <script>
+        const botao = document.getElementById('cadastrar');
+        event.preventDefault();
+        botao.addEventListener('click', () => {
+            alert('Cadastro realizado com sucesso!\nRedirecionando para a página de login...');
+        });
+    </script>
+</body> 
+</html>

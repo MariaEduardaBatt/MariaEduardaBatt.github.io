@@ -1,0 +1,53 @@
+:root{
+    --black : #000000;
+    --white : #ffffff;
+    --primary : rgb(62, 255, 94);
+    --light-green : #77d887;
+    --light-gray : #555151;
+    --gray : #afaeae;
+    --gray-background : #f3f3f3;
+    --brackground : #ddd7d7;
+    --red : #da4a4a;
+    --light-red : #f0a3a3;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Luca, .Maria{
+    display: flex;
+    flex-basis: 100%;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+a:hover{
+    color: var(--light-green);
+}
+
+.Imagem-sobre{
+    display: block;
+    width: 100%;
+    width: 250px;
+    height: 100%;
+    height: 350px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+h1{
+    color: var(--primary);
+    font-size: 2.5rem;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    width: 100%;
+}

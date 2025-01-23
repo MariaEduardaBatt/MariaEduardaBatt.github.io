@@ -1,0 +1,49 @@
+:root{
+    --black : #000000;
+    --white : #ffffff;
+    --primary : #3eff5e;
+    --light-green : #77d887;
+    --light-gray : #555151;
+    --gray : #afaeae;
+    --gray-background : #f3f3f3;
+    --brackground : #ddd7d7;
+    --red : #da4a4a;
+    --light-red : #f0a3a3;
+}
+
+img{
+    max-width: 500px;
+    max-height: 700px;
+    object-fit: contain;
+    display: block;
+}
+
+.Sinopse{
+    color: var(--white);
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 30px;
+}
+
+.Sinopse ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Sinopse b{
+    color: var(--primary);
+}
+
+.Titulo-sinopse h2{
+    color: var(--white);
+    font-size: 25px;
+    margin: 20px 0 0 30px;
+}
+

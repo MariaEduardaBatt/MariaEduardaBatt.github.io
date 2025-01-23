@@ -1,0 +1,58 @@
+:root{
+    --black : #000000;
+    --white : #ffffff;
+    --primary : #3eff5e;
+    --light-green : #77d887;
+    --light-gray : #555151;
+    --gray : #afaeae;
+    --gray-background : #f3f3f3;
+    --brackground : #ddd7d7;
+    --red : #da4a4a;
+    --light-red : #f0a3a3;
+}
+
+.contatos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    max-width: 800px;
+    width: 70%;
+    padding: 40px;
+    color: var(--white);
+}
+
+.contato input, textarea{
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--white);
+    font-size: 15px;
+}
+
+label{
+    color: var(--white);
+    font-size: 15px;
+    display: block;
+    margin: 20px 0 7px 5px;
+}
+
+textarea{
+    height: 200px;
+}
+
+.enviar-email{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    border: 0;
+    background-color: var(--primary);
+    color: var(--black);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}

@@ -1,0 +1,95 @@
+:root{
+    --black : #000000;
+    --white : #ffffff;
+    --primary : #3eff5e;
+    --light-green : #77d887;
+    --light-gray : #555151;
+    --gray : #afaeae;
+    --gray-background : #f3f3f3;
+    --brackground : #ddd7d7;
+    --red : #da4a4a;
+    --light-red : #f0a3a3;
+}
+
+.filmes-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.filmes-list li{
+    padding: 30px;
+}
+
+
+.filmes-list a{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-decoration: none;
+    color: var(--white);
+    padding: 15px;
+}
+
+.filmes-list a:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+h2{
+    color:var(--white);
+    margin: 40px 0 20px 55px;
+    font-size: 25px;
+    
+}
+
+
+.imagem-filmes{
+    display: flex;
+    height: 150px;
+    margin: 10px 10px 15px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+    
+}
+
+.Filmes{
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Filmes p{
+    color: var(--white);
+    font-size: 15px;
+    margin: 0 0 30px 0;
+} 
+
+ .AnjosDaLei,.Batman,.GenteGrande,.AOrigem,.BadBoys,.EsposaDeMentirinha, .Interestelar, .Kingsman, .Tenet, .VelozesEFuriosos{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 20%;
+
+ }
+
+
+ .imagem-filmes:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.8);
+    transition: 0.3s;   
+ }
+
+.poucos-filmes{
+    position: absolute;
+    bottom: 0;
+}
+ 
+ 
+

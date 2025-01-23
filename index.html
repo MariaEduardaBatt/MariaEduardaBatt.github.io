@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="Img/logo.png"/>
+    <title>Login</title>
+  </head>
+  <body>  
+    <header>
+      <nav class="nav-header">
+          <h2>Webflix</h2>
+      </nav>
+    </header>
+    <div class="login-container">
+      <form class="login-form" action="/paginaInicial.html">
+        <fieldset>
+          <h1>Login</h1>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Nome de usuário ou E-mail"
+            required
+            autocomplete="off"
+          />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Senha"
+            autocomplete="off"
+            required
+          />
+          <button type="submit" class="login">Entrar</button>
+        </fieldset>
+        <a href="/cadastroUsuario.html">Cadastrar</a>
+      </form>
+    </div>
+    <script>
+      const input = document.getElementById("username");
+      const password = document.getElementById("password");
+
+      input.addEventListener("focus", () => {
+        input.placeholder = "";
+      });
+
+      input.addEventListener("blur", () => {
+        if (input.value === "") {
+          input.placeholder = "Nome de usuário ou E-mail"; // Substitua pelo seu placeholder
+        }
+      });
+
+      password.addEventListener("focus", () => {
+        password.placeholder = "";
+      });
+
+      password.addEventListener("blur", () => {
+        if (password.value === "") {
+          password.placeholder = "Senha"; // Substitua pelo seu placeholder
+        }
+      });
+    </script>
+  </body>
+</html>

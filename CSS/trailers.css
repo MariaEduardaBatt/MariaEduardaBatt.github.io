@@ -1,0 +1,42 @@
+:root{
+    --black : #000000;
+    --white : #ffffff;
+    --primary : #3eff5e;
+    --light-green : #77d887;
+    --light-gray : #555151;
+    --gray : #afaeae;
+    --gray-background : #f3f3f3;
+    --brackground : #ddd7d7;
+    --red : #da4a4a;
+    --light-red : #f0a3a3;
+}
+
+.trailers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trailer-anjos-da-lei, .trailer-a-origem, .trailer-bad-boys, .trailer-batman, .trailer-esposa-de-mentirinha, .trailer-gente-grande, .trailer-interestellar, .trailer-kingsman, .trailer-tenet, .trailer-velozes-e-furiosos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex-basis: 33%;
+}
+
+h1{
+    color: var(--primary);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0 20px;
+}
+
+h2{
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 10px;
+}
