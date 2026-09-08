@@ -144,8 +144,9 @@ body {
 .nav-logo-text {
     font-family: var(--font-head);
     font-weight: 700;
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     color: var(--text);
+    white-space: nowrap;
 }
 
 .nav-logo-text span { color: var(--accent); }
@@ -153,7 +154,7 @@ body {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
