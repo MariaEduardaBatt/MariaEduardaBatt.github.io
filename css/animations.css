@@ -1,0 +1,50 @@
+/* ============================================================
+   Animações — Portfólio Maria Eduarda
+   ============================================================ */
+
+/* Cursor do efeito digitação */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Rotação da borda tracejada da foto */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Flutuação */
+@keyframes float {
+    0%, 100% { transform: translate(-50%, 0); }
+    50% { transform: translate(-50%, -10px); }
+}
+
+/* Aparição ao rolar (revel) */
+.reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.in-view { opacity: 1; transform: none; }
+
+.reveal.delay-1 { transition-delay: 0.08s; }
+.reveal.delay-2 { transition-delay: 0.16s; }
+.reveal.delay-3 { transition-delay: 0.24s; }
+.reveal.delay-4 { transition-delay: 0.32s; }
+.reveal.delay-5 { transition-delay: 0.4s; }
+
+/* Acessibilidade: respeita quem prefere menos movimento */
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .photo-ring::before { animation: none; }
+    .scroll-hint { animation: none; }
+    .type-caret { animation: none; }
+}
