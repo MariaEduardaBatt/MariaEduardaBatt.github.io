@@ -476,6 +476,8 @@ body {
     color: var(--text);
 }
 
+.soft-skills h3:not(:first-child) { margin-top: 1.8rem; }
+
 .skill-cat h3 i { color: var(--accent); margin-right: 0.5rem; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 0.6rem; }
