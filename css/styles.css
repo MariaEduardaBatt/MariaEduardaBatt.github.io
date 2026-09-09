@@ -644,6 +644,13 @@ body {
 .timeline-content p { color: var(--muted); font-size: 0.92rem; }
 
 /* Formação */
+.edu-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 760px;
+}
+
 .edu-card {
     background: linear-gradient(135deg, var(--bg-3), #0c1424);
     border: 1px solid var(--border);
@@ -653,6 +660,7 @@ body {
     gap: 2rem;
     align-items: flex-start;
     max-width: 760px;
+    width: 100%;
     transition: border-color 0.3s ease;
 }
 

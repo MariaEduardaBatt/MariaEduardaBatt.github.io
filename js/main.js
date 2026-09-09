@@ -69,7 +69,7 @@
         'Estudante de Engenharia de Computação',
         'Sistemas Embarcados',
         'Visão Computacional',
-        'IoT Industrial',
+        'Firmware & Telemetria',
     ];
     const el = document.getElementById('typewriter');
     let phraseIdx = 0;
