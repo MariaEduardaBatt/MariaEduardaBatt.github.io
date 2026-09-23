@@ -37,6 +37,8 @@ Meu **portfólio pessoal**, construído do zero com **HTML5**, **CSS3** e **Java
 
 O objetivo é apresentar, de forma clara e interativa, minha trajetória na Engenharia de Computação: **formação**, **experiências** (P&D, robótica industrial, full stack e liderança), **habilidades**, **projetos** e canais de **contato**.
 
+Entre os destaques estão as conquistas em hackathons: **1º lugar no Hackathon IFSULDEMINAS 2025** (criptografia/Blockchain aplicada ao agronegócio) e **1º lugar em 2026**, com uma solução de **gestão pública** para o **CEASA de Poços de Caldas**.
+
 ---
 
 ## 🧭 Seções do Site
@@ -47,7 +49,7 @@ O objetivo é apresentar, de forma clara e interativa, minha trajetória na Enge
 | **Sobre**      | Apresentação e destaques (período, prêmios, P&D)                  |
 | **Habilidades**| Técnicas (categorias) + soft skills e idiomas                     |
 | **Projetos**   | Cards com projetos em destaque e links para os repositórios       |
-| **Trajetória** | Linha do tempo com experiências e liderança                       |
+| **Trajetória** | Linha do tempo com experiências, liderança e conquistas           |
 | **Formação**   | Graduação, cursos e ensino técnico                                |
 | **Contato**    | E-mail, LinkedIn e GitHub                                         |
 
