@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Maria Eduarda Batista — Portfólio
+# 💻 Maria Eduarda Batista — Portfólio
 
 **Engenharia de Computação | Sistemas Embarcados · Visão Computacional · Firmware & Telemetria**
 
@@ -31,9 +31,9 @@
 
 ---
 
-## 🌌 Sobre o Projeto
+## 📖 Sobre o Projeto
 
-Meu **portfólio pessoal**, construído do zero com **HTML5**, **CSS3** e **JavaScript puro** (sem frameworks). A identidade visual segue uma estética **dark "aeroespacial"** — azul-marinho profundo com detalhes em ciano — que reflete meu interesse pelo setor aeronáutico e aeroespacial.
+Meu **portfólio pessoal**, construído do zero com **HTML5**, **CSS3** e **JavaScript puro** (sem frameworks). A identidade visual segue uma estética **dark** — azul-marinho profundo com detalhes em ciano.
 
 O objetivo é apresentar, de forma clara e interativa, minha trajetória na Engenharia de Computação: **formação**, **experiências** (P&D, robótica industrial, full stack e liderança), **habilidades**, **projetos** e canais de **contato**.
 
@@ -57,7 +57,7 @@ Entre os destaques estão as conquistas em hackathons: **1º lugar no Hackathon 
 
 ## ✨ Funcionalidades
 
-- 🎨 **Tema dark aeroespacial** — paleta azul-marinho + ciano com gradientes e "nebulosas"
+- 🎨 **Tema dark** — paleta azul-marinho + ciano com gradientes e "nebulosas"
 - ⭐ **Campo de estrelas animado** — renderizado em `canvas`, com parallax sutil
 - ⌨️ **Efeito de digitação** (typewriter) no hero
 - 📱 **Totalmente responsivo** — mobile-first, com menu hambúrguer animado
@@ -86,7 +86,7 @@ MariaEduardaBatt.github.io/
 
 ---
 
-## 🚀 Como Executar Localmente
+## 📦 Como Executar Localmente
 
 ```bash
 # Clone o repositório
