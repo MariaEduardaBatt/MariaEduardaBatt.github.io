@@ -706,7 +706,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -770,6 +770,98 @@ body {
 }
 
 .back-top:hover { color: var(--accent); border-color: var(--accent); transform: translateY(-3px); }
+
+/* Habilidades: categoria de IA ocupa a linha inteira */
+.skill-cat-wide {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, rgba(232, 121, 249, 0.07), rgba(34, 211, 238, 0.06)), var(--bg-3);
+    border-color: rgba(232, 121, 249, 0.28);
+}
+
+.skill-cat-wide h3 i { color: #e879f9; }
+
+/* Projeto em destaque */
+.project-featured {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 2.4rem;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(232, 121, 249, 0.06), rgba(34, 211, 238, 0.05)), var(--bg-3);
+    border: 1px solid rgba(232, 121, 249, 0.3);
+    border-radius: 26px;
+    padding: 2.4rem;
+    margin-bottom: 1.8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-featured::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 2px;
+    background: linear-gradient(90deg, #e879f9, var(--accent));
+}
+
+.project-featured h3 {
+    font-family: var(--font-head);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+.project-featured .featured-text > p { color: var(--muted); font-size: 0.97rem; margin-bottom: 1.4rem; }
+
+.project-featured .project-head > i { font-size: 1.9rem; color: #e879f9; }
+
+.featured-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.featured-metrics > div {
+    background: rgba(7, 11, 20, 0.55);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 0.9rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.metric-num {
+    font-family: var(--font-tech);
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: var(--accent);
+}
+
+.metric-label { color: var(--muted); font-size: 0.78rem; line-height: 1.3; }
+
+.featured-links { display: flex; flex-wrap: wrap; gap: 0.7rem; }
+
+.featured-chart {
+    margin: 0;
+    background: rgba(7, 11, 20, 0.6);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.2rem;
+}
+
+.featured-chart img { width: 100%; height: auto; display: block; }
+
+.featured-chart figcaption { color: var(--muted); font-size: 0.8rem; margin-top: 0.6rem; text-align: center; }
+
+@media (max-width: 900px) {
+    .project-featured { grid-template-columns: 1fr; padding: 1.8rem; }
+}
+
+@media (max-width: 480px) {
+    .featured-metrics { grid-template-columns: 1fr; }
+    .project-featured h3 { font-size: 1.4rem; }
+}
 
 /* ---------- Responsivo ---------- */
 @media (max-width: 900px) {

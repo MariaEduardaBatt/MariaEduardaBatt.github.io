@@ -66,10 +66,10 @@
 
     /* ---------- Efeito de digitação no hero ---------- */
     const phrases = [
-        'Estudante de Engenharia de Computação',
-        'Sistemas Embarcados',
+        'Inteligência Artificial',
+        'Machine Learning',
         'Visão Computacional',
-        'Firmware & Telemetria',
+        'Engenharia de Computação',
     ];
     const el = document.getElementById('typewriter');
     let phraseIdx = 0;

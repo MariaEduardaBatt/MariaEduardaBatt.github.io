@@ -2,7 +2,7 @@
 
 # 💻 Maria Eduarda Batista — Portfólio
 
-**Engenharia de Computação | Sistemas Embarcados · Visão Computacional · Firmware & Telemetria**
+**Engenharia de Computação | Inteligência Artificial · Machine Learning · Visão Computacional · Sistemas Embarcados**
 
 <br/>
 
